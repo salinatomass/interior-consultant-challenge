@@ -1,0 +1,44 @@
+.card {
+  width: 300px;
+  padding: 23px 0 34px 26px;
+  background: var(--black);
+  box-shadow: var(--cardShadow);
+}
+.card-autor {
+  display: flex;
+  margin-bottom: 15px;
+}
+.card-autor-image {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.card-autor-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-autor-name h3 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.card-autor-name p {
+  margin-top: 5px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.card-caption {
+  max-width: 210px;
+}
+.card-caption h2 {
+  font-family: var(--secondarFont);
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--black);
+}
+
+.header-grid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo a {
+  padding: 8px;
+  font-family: var(--logoFont);
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  color: var(--white);
+  border: 1px solid var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+}

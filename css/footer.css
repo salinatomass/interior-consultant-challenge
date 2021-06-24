@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  color: var(--footerGray);
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+.footer a {
+  color: var(--footerGray);
+  font-weight: bold;
+}

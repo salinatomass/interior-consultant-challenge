@@ -1,0 +1,54 @@
+.main {
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.main-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main-image {
+  position: relative;
+}
+.main-image img {
+  width: 100%;
+}
+.main-description h1 {
+  font-family: var(--secondarFont);
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: 500;
+}
+.main-description p {
+  max-width: 250px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: normal;
+}
+.main-description a {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-description span {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.main-card {
+  position: absolute;
+  bottom: -90px;
+  right: 10px;
+}

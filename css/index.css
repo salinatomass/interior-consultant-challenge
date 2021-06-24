@@ -1,0 +1,35 @@
+@import "./wrapper.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./main.css";
+@import "./card.css";
+@import "./footer.css";
+
+:root {
+  --primaryFont: "Montserrat", sans-serif;
+  --secondarFont: "Lora", serif;
+  --logoFont: "Crimson Pro", serif;
+
+  --black: #181719;
+  --white: #ffffff;
+  --gray: #828282;
+  --footerGray: #a9a9a9;
+
+  --cardShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--primaryFont);
+}
