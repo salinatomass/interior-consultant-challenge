@@ -1,3 +1,11 @@
+.header .menu-open {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: url(../images/icon-hamburger.svg) no-repeat center;
+  user-select: none;
+}
+
 .menu {
   display: none;
   position: absolute;
@@ -16,7 +24,7 @@
   gap: 32px;
   text-align: center;
 }
-.menu ul a {
+.menu ul li a {
   color: var(--white);
   font-size: 1.8rem;
   line-height: 2rem;
@@ -26,14 +34,6 @@
 }
 .menu ul li:hover > a {
   border-bottom: 2px solid var(--white);
-}
-
-.header .menu-open {
-  display: inline-flex;
-  width: 40px;
-  height: 40px;
-  background: url(../images/icon-hamburger.svg) no-repeat center;
-  user-select: none;
 }
 
 .menu-checkbox {
@@ -50,4 +50,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header .menu-open {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: static;
+    width: max-content;
+    height: max-content;
+    align-self: center;
+  }
+  .menu ul {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+  .menu ul li a {
+    padding-bottom: 0;
+  }
 }

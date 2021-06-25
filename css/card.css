@@ -6,6 +6,7 @@
 }
 .card-autor {
   display: flex;
+  align-items: center;
   margin-bottom: 15px;
 }
 .card-autor-image {
@@ -41,4 +42,36 @@
   font-size: 1.8rem;
   line-height: 2.3rem;
   font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 410px;
+  }
+  .card-autor {
+    margin-bottom: 25px;
+  }
+  .card-autor-image {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+  }
+  .card-autor-name {
+    height: max-content;
+  }
+  .card-autor-name h3 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  .card-autor-name p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .card-caption {
+    max-width: 280px;
+  }
+  .card-caption h2 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
 }

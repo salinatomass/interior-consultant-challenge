@@ -1,10 +1,10 @@
-# My team page Challenge
+# Interior consultant Challenge
 
 Challenge by [devchallenges.io](https://devchallenges.io/)
 
 ## Preview
 
-![Design preview for the Social media dashboard](./images/preview.png)
+![Design preview for the Interior consultant Challenge](./images/preview.png)
 
 ## The challenge
 
